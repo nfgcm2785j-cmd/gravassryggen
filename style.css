@@ -37,21 +37,25 @@ flex-direction:column;
 }
 
 .topbar{
+    width:100%;
+    max-width:1200px;
 
-max-width:1200px;
+    margin:0 auto;
 
-width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-margin:auto;
+    padding:30px 40px;
 
-display:flex;
+    background:transparent;
 
-justify-content:space-between;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
 
-align-items:center;
-
-padding:30px;
-
+    z-index:10;
 }
 
 .logo{
