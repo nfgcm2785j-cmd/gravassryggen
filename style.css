@@ -11,6 +11,10 @@ body {
   line-height: 1.7;
 }
 
+a {
+  color: inherit;
+}
+
 .hero {
   position: relative;
   min-height: 78vh;
@@ -34,11 +38,6 @@ body {
   align-items: flex-start;
   padding: 24px 36px;
   z-index: 10;
-}
-
-.logo {
-  display: block;
-  text-decoration: none;
 }
 
 .logo img {
@@ -65,12 +64,6 @@ body {
   background: rgba(255,255,255,.22);
   border: 1px solid rgba(255,255,255,.35);
   backdrop-filter: blur(10px);
-  transition: .25s;
-}
-
-.languages a:hover {
-  transform: translateY(-2px);
-  background: rgba(255,255,255,.35);
 }
 
 .hero-content {
@@ -91,18 +84,17 @@ body {
   font-size: clamp(1.1rem, 2vw, 1.45rem);
   max-width: 760px;
   margin: 0 auto;
-  text-shadow: 0 3px 12px rgba(0,0,0,.35);
 }
 
 main {
-  max-width: 1150px;
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 85px 28px;
+  padding: 80px 28px;
 }
 
 .intro {
   max-width: 760px;
-  margin: 0 auto 70px;
+  margin: 0 auto 65px;
   text-align: center;
 }
 
@@ -119,8 +111,8 @@ main {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 26px;
 }
 
 .card {
@@ -134,23 +126,18 @@ main {
 }
 
 .card:hover {
-  transform: translateY(-7px);
+  transform: translateY(-6px);
   box-shadow: 0 22px 52px rgba(0,0,0,.12);
 }
 
 .emoji {
   font-size: 44px;
-  margin-bottom: 16px;
-  transition: .25s;
-}
-
-.card:hover .emoji {
-  transform: scale(1.12);
+  margin-bottom: 14px;
 }
 
 .card h3 {
   font-size: 1.45rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .card p {
@@ -159,7 +146,7 @@ main {
 
 .quote {
   max-width: 720px;
-  margin: 90px auto 0;
+  margin: 85px auto 0;
   text-align: center;
   font-style: italic;
   color: #666;
@@ -187,11 +174,51 @@ footer p {
   padding: 13px 25px;
   border-radius: 999px;
   font-weight: 700;
-  transition: .25s;
 }
 
-.airbnb:hover {
-  background: #214434;
+.page-hero {
+  background: #2d4634;
+  color: white;
+  padding: 90px 28px;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+}
+
+.page-hero p {
+  max-width: 700px;
+  margin: 18px auto 0;
+  font-size: 1.15rem;
+  opacity: .9;
+}
+
+.content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 70px 24px;
+}
+
+.content-card {
+  background: white;
+  padding: 32px;
+  border-radius: 22px;
+  margin-bottom: 26px;
+  box-shadow: 0 12px 34px rgba(0,0,0,.06);
+}
+
+.content-card h2 {
+  color: #2d4634;
+  margin-bottom: 12px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #2d4634;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 @media (max-width: 760px) {
@@ -210,10 +237,6 @@ footer p {
   .languages a {
     width: 38px;
     height: 38px;
-  }
-
-  .hero-content {
-    padding-top: 110px;
   }
 
   main {
