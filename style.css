@@ -20,7 +20,7 @@ a {
   min-height: 78vh;
   background:
     linear-gradient(rgba(0,0,0,.38), rgba(0,0,0,.38)),
-    url("images/hero.jpg");
+    url("images/hero-summer.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
