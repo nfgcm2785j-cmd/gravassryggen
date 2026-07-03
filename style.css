@@ -382,3 +382,27 @@ footer p {
   max-width: 900px;
   margin: 0 auto 3rem;
 }
+
+.translation-note {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    padding: 28px 32px;
+    background: #eef6ff;
+    border-left: 5px solid #4f8cc9;
+    border-radius: 14px;
+    box-shadow: none;
+}
+
+.translation-note h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.translation-note p {
+  color: #444;
+  margin-bottom: 1.25rem;
+}
+
+.translation-note p:last-child {
+  margin-bottom: 0;
+}
