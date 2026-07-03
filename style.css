@@ -406,3 +406,17 @@ footer p {
 .translation-note p:last-child {
   margin-bottom: 0;
 }
+
+.card-link {
+  display: inline-block;
+  margin-top: auto;
+  padding-top: 18px;
+  font-weight: 700;
+  color: #2f5d46;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
