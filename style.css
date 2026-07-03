@@ -420,3 +420,28 @@ footer p {
   display: flex;
   flex-direction: column;
 }
+
+.info-section p {
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.info-section h3 {
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.info-section ul {
+  margin: 8px 0 20px 22px;
+  padding: 0;
+}
+
+.info-section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  padding-left: 2px;
+}
+
+.warning-box {
+  margin-top: 22px;
+}
