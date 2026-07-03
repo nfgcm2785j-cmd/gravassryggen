@@ -377,3 +377,8 @@ footer p {
     height: 600px;
     border: 0;
 }
+
+.translation-note {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
