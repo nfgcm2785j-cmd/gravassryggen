@@ -113,6 +113,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 26px;
+  margin-bottom: 3.5rem;
 }
 
 .card {
@@ -320,4 +321,59 @@ footer p {
 .action-button:hover {
     background: #24553d;
     transform: translateY(-2px);
+}
+
+.winter-card {
+    background: #f5f9fc;
+    border: 1px solid #d8e6f2;
+}
+.section-title {
+    margin: 3rem 0 1rem;
+    font-size: 1.6rem;
+    color: #234431;
+}
+
+.section-heading {
+  max-width: 1200px;
+  margin: 4.5rem auto 1.25rem;
+  padding: 0 20px;
+}
+
+.section-heading h2 {
+  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  line-height: 1.2;
+  margin: 0;
+  color: #2d3d35;
+}
+.internal-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 1rem;
+  padding: 10px 16px;
+  background: #eef4ef;
+  color: #234431;
+  text-decoration: none;
+  border: 1px solid #cfdccf;
+  border-radius: 10px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.internal-button:hover {
+  background: #dfece0;
+}
+
+.map-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,.15);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 600px;
+    border: 0;
 }
