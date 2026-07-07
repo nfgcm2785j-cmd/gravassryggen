@@ -445,3 +445,44 @@ footer p {
 .warning-box {
   margin-top: 22px;
 }
+
+.content-card p {
+    margin-bottom: 18px;
+    line-height: 1.7;
+}
+
+.content-card ul {
+    margin: 18px 0 22px 24px;
+    line-height: 1.8;
+}
+
+.content-card li {
+    margin-bottom: 8px;
+}
+
+.content-card h3 {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.language-note {
+    max-width: 820px;
+    margin: 24px auto 10px;
+    padding: 18px 22px;
+    background: #f6f4ef;
+    border: 1px solid #e3ded2;
+    border-radius: 14px;
+    color: #3f3a32;
+    text-align: center;
+}
+
+.language-note p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.updated-note {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #6f6a60;
+}
