@@ -3,6 +3,7 @@
  * Update values here instead of editing multiple HTML files.
  */
 
+
 const siteContent = {
     version: {
         no: "11 July 2026",
