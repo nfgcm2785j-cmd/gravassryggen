@@ -7,7 +7,7 @@
 const siteContent = {
     version: {
         no: "11 July 2026",
-        en: "07 July 2026"
+        en: "11 July 2026"
     }
 };
 
