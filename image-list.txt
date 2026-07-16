@@ -1,0 +1,8 @@
+images/.DS_Store
+images/favicon.png
+images/fiskekart-original.jpg
+images/fiskekart.jpg
+images/hero-summer.jpg
+images/hero-winter.jpg
+images/hero.jpg
+images/logo.jpg
